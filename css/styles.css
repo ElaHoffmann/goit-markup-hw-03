@@ -220,14 +220,16 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.171;
-    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .text-team {
     font-family: var(--main-font);
     font-size: 14px;
     line-height: 1.714;
-    align-items: center;
+    text-align: center;
 }
 
 .button {
@@ -263,7 +265,10 @@ img {
 }
 
 .worker-list-item {
+    width: 270px;
+    height: 368px;
     padding-bottom: 94px;
+    border: var(--second-color);
 }
 
 .worker-list-item:not(:last-child) {
