@@ -330,6 +330,9 @@ img {
     list-style:none;
 }
 
+.menu-buttons:not(:last-child) {
+    margin-right: 30px;
+}
 
 .card-set {
     display: flex;
